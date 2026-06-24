@@ -8,7 +8,7 @@
 ## Contents
 
 - [Benchmark list](#benchmark-list)
-- [Recommended benchmark bundles by evaluation goal](#recommended-benchmark-bundles-by-evaluation-goal)
+- [Recommended benchmark bundles by evaluation goal](#按评估目标推荐的基准组合)
 - [Data files](#data-files)
 
 ## Benchmark list

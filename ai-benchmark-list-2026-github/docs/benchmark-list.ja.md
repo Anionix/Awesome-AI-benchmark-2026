@@ -8,7 +8,7 @@ LLM、エージェント、ツール利用、コーディング、マルチモ�
 ## Contents
 
 - [Benchmark list](#benchmark-list)
-- [Recommended benchmark bundles by evaluation goal](#recommended-benchmark-bundles-by-evaluation-goal)
+- [Recommended benchmark bundles by evaluation goal](#評価目的別の推奨ベンチマーク構成)
 - [Data files](#data-files)
 
 ## Benchmark list
