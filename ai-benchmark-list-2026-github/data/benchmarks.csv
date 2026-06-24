@@ -1,4 +1,4 @@
-﻿category_en,category_zh-CN,category_ja,benchmark,url,description_en,description_zh-CN,description_ja
+category_en,category_zh-CN,category_ja,benchmark,url,description_en,description_zh-CN,description_ja
 Traditional LLM capability,传统 LLM 能力,従来型LLM能力,MMLU,https://arxiv.org/abs/2009.03300,Broad academic and professional knowledge across many subjects.,评估多个学科领域中的广泛学术与专业知识能力。,多数の学問・専門分野にわたる基礎知識と問題解決能力を評価。
 Traditional LLM capability,传统 LLM 能力,従来型LLM能力,MMLU-Pro,https://github.com/TIGER-AI-Lab/MMLU-Pro,A harder MMLU-style benchmark with more choices and stronger reasoning demand.,更高难度的 MMLU 风格基准，增加选项数量并强化推理要求。,MMLUを高難度化し、選択肢数と推論要求を高めた評価。
 Traditional LLM capability,传统 LLM 能力,従来型LLM能力,GPQA Diamond,https://epoch.ai/benchmarks/gpqa-diamond,Expert-level scientific reasoning using difficult graduate-level questions.,使用高难度研究生级科学问题评估专家级科学推理能力。,大学院レベルの高難度理科系問題で専門的な科学推論を評価。
