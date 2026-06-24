@@ -89,4 +89,4 @@ When updating this list, prefer sources in the following order:
 
 ## License
 
-No license has been selected yet. Add a license before public reuse if needed.
+This repository is licensed under the MIT License. See the repository [LICENSE](../LICENSE) file for details.
