@@ -1,0 +1,814 @@
+[
+  {
+    "category": {
+      "en": "Traditional LLM capability",
+      "zh-CN": "传统 LLM 能力",
+      "ja": "従来型LLM能力"
+    },
+    "benchmark": "MMLU",
+    "url": "https://arxiv.org/abs/2009.03300",
+    "description": {
+      "en": "Broad academic and professional knowledge across many subjects.",
+      "zh-CN": "评估多个学科领域中的广泛学术与专业知识能力。",
+      "ja": "多数の学問・専門分野にわたる基礎知識と問題解決能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Traditional LLM capability",
+      "zh-CN": "传统 LLM 能力",
+      "ja": "従来型LLM能力"
+    },
+    "benchmark": "MMLU-Pro",
+    "url": "https://github.com/TIGER-AI-Lab/MMLU-Pro",
+    "description": {
+      "en": "A harder MMLU-style benchmark with more choices and stronger reasoning demand.",
+      "zh-CN": "更高难度的 MMLU 风格基准，增加选项数量并强化推理要求。",
+      "ja": "MMLUを高難度化し、選択肢数と推論要求を高めた評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Traditional LLM capability",
+      "zh-CN": "传统 LLM 能力",
+      "ja": "従来型LLM能力"
+    },
+    "benchmark": "GPQA Diamond",
+    "url": "https://epoch.ai/benchmarks/gpqa-diamond",
+    "description": {
+      "en": "Expert-level scientific reasoning using difficult graduate-level questions.",
+      "zh-CN": "使用高难度研究生级科学问题评估专家级科学推理能力。",
+      "ja": "大学院レベルの高難度理科系問題で専門的な科学推論を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Traditional LLM capability",
+      "zh-CN": "传统 LLM 能力",
+      "ja": "従来型LLM能力"
+    },
+    "benchmark": "HLE / Humanity's Last Exam",
+    "url": "https://agi.safe.ai/",
+    "description": {
+      "en": "A frontier benchmark for broad knowledge, reasoning, and multimodal tasks.",
+      "zh-CN": "面向前沿模型的高难度综合基准，覆盖知识、推理与多模态任务。",
+      "ja": "知識・推論・マルチモーダル能力を広く測る高難度フロンティア評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Traditional LLM capability",
+      "zh-CN": "传统 LLM 能力",
+      "ja": "従来型LLM能力"
+    },
+    "benchmark": "LiveBench",
+    "url": "https://livebench.ai/",
+    "description": {
+      "en": "A frequently updated benchmark designed to reduce contamination and track current capability.",
+      "zh-CN": "持续更新的基准，旨在降低测试集污染并跟踪最新模型能力。",
+      "ja": "継続更新によりテスト汚染を抑え、最新モデル能力を追跡する評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "AGI-oriented reasoning",
+      "zh-CN": "面向 AGI 的推理",
+      "ja": "AGI志向の推論"
+    },
+    "benchmark": "ARC-AGI-2",
+    "url": "https://arcprize.org/arc-agi/2",
+    "description": {
+      "en": "Abstract pattern discovery, rule induction, and few-shot generalization.",
+      "zh-CN": "评估抽象模式发现、规则归纳和少样本泛化能力。",
+      "ja": "抽象パターン発見、規則帰納、少数例からの一般化を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "AGI-oriented reasoning",
+      "zh-CN": "面向 AGI 的推理",
+      "ja": "AGI志向の推論"
+    },
+    "benchmark": "ARC-AGI-3",
+    "url": "https://arcprize.org/arc-agi/3",
+    "description": {
+      "en": "Interactive reasoning, exploration, goal discovery, world modeling, and planning.",
+      "zh-CN": "评估交互式推理、探索、目标发现、世界模型构建与规划能力。",
+      "ja": "探索、目標発見、世界モデル構築、行動計画などを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Practical AI agents",
+      "zh-CN": "实用 AI 智能体",
+      "ja": "実用AIエージェント"
+    },
+    "benchmark": "Agents' Last Exam / ALE",
+    "url": "https://arxiv.org/abs/2606.05405",
+    "description": {
+      "en": "Long-horizon, economically valuable real-world tasks across many fields.",
+      "zh-CN": "评估跨多个领域、具有经济价值的长程真实世界任务执行能力。",
+      "ja": "多領域にわたる長期・高価値の実世界タスク遂行能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Practical AI agents",
+      "zh-CN": "实用 AI 智能体",
+      "ja": "実用AIエージェント"
+    },
+    "benchmark": "GDPval",
+    "url": "https://openai.com/index/gdpval/",
+    "description": {
+      "en": "Real-world work deliverables across occupations and industries.",
+      "zh-CN": "评估跨职业与行业的真实知识工作交付物。",
+      "ja": "職種・産業をまたぐ実世界の知識労働成果物を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Practical AI agents",
+      "zh-CN": "实用 AI 智能体",
+      "ja": "実用AIエージェント"
+    },
+    "benchmark": "APEX-Agents",
+    "url": "https://epoch.ai/benchmarks/apex-agents",
+    "description": {
+      "en": "Professional workflows in finance, consulting, law, medicine, and related domains.",
+      "zh-CN": "评估金融、咨询、法律、医疗等专业领域的工作流执行能力。",
+      "ja": "金融、コンサル、法律、医療などの専門職ワークフローを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Tool use and MCP",
+      "zh-CN": "工具使用与 MCP",
+      "ja": "ツール利用とMCP"
+    },
+    "benchmark": "Toolathlon / Tool Decathlon",
+    "url": "https://github.com/hkust-nlp/Toolathlon",
+    "description": {
+      "en": "Long-horizon task execution with many applications and tools.",
+      "zh-CN": "评估在多应用、多工具环境中的长程任务执行能力。",
+      "ja": "多数のアプリ・ツールを使う長期タスク遂行能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Tool use and MCP",
+      "zh-CN": "工具使用与 MCP",
+      "ja": "ツール利用とMCP"
+    },
+    "benchmark": "MCP-Atlas",
+    "url": "https://labs.scale.com/leaderboard/mcp_atlas",
+    "description": {
+      "en": "MCP tool discovery, parameter specification, and multi-tool coordination.",
+      "zh-CN": "评估 MCP 工具发现、参数指定和多工具协调能力。",
+      "ja": "MCPツールの発見、引数指定、複数ツール連携を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Tool use and MCP",
+      "zh-CN": "工具使用与 MCP",
+      "ja": "ツール利用とMCP"
+    },
+    "benchmark": "LiveMCPBench",
+    "url": "https://icip-cas.github.io/LiveMCPBench/",
+    "description": {
+      "en": "Tool selection and use across large live MCP server environments.",
+      "zh-CN": "评估在大规模实时 MCP 服务器环境中的工具选择与使用能力。",
+      "ja": "大規模ライブMCP環境でのツール選択・利用能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Tool use and MCP",
+      "zh-CN": "工具使用与 MCP",
+      "ja": "ツール利用とMCP"
+    },
+    "benchmark": "BFCL v4",
+    "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+    "description": {
+      "en": "Function calling and tool calling accuracy for LLMs and agents.",
+      "zh-CN": "评估 LLM 与智能体的函数调用和工具调用准确性。",
+      "ja": "LLMやエージェントの関数呼び出し・ツール呼び出し精度を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Tool use and MCP",
+      "zh-CN": "工具使用与 MCP",
+      "ja": "ツール利用とMCP"
+    },
+    "benchmark": "MCP-Bench",
+    "url": "https://github.com/Accenture/mcp-bench",
+    "description": {
+      "en": "Realistic multi-step tool-using tasks through MCP servers.",
+      "zh-CN": "通过 MCP 服务器评估现实多步骤工具使用任务。",
+      "ja": "MCPサーバーを通じた現実的な複数ステップのツール利用を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Tool use and MCP",
+      "zh-CN": "工具使用与 MCP",
+      "ja": "ツール利用とMCP"
+    },
+    "benchmark": "τ-bench",
+    "url": "https://github.com/sierra-research/tau-bench",
+    "description": {
+      "en": "Realistic user, tool, and policy interaction settings.",
+      "zh-CN": "评估真实用户、工具与政策约束交互环境中的智能体能力。",
+      "ja": "ユーザー、ツール、ポリシーが絡む対話環境で評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Tool use and MCP",
+      "zh-CN": "工具使用与 MCP",
+      "ja": "ツール利用とMCP"
+    },
+    "benchmark": "τ²-bench",
+    "url": "https://sierra.ai/resources/research/tau-squared-bench",
+    "description": {
+      "en": "Dual-control user-agent collaboration with tools and policy constraints.",
+      "zh-CN": "评估用户与智能体共同控制、共同使用工具并遵守政策约束的能力。",
+      "ja": "ユーザーとエージェント双方がツールを使う協調・ポリシー遵守を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Tool use and MCP",
+      "zh-CN": "工具使用与 MCP",
+      "ja": "ツール利用とMCP"
+    },
+    "benchmark": "Agent-Diff",
+    "url": "https://arxiv.org/abs/2602.11224",
+    "description": {
+      "en": "Enterprise API tasks evaluated by final-state differences.",
+      "zh-CN": "通过比较最终状态差异评估企业 API 任务执行结果。",
+      "ja": "企業APIタスクを最終状態の差分で評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "Terminal-Bench 2.0 / 3.0",
+    "url": "https://www.tbench.ai/",
+    "description": {
+      "en": "Autonomous CLI tasks such as compiling code and configuring systems.",
+      "zh-CN": "评估自动执行 CLI 任务的能力，如编译代码和配置系统。",
+      "ja": "コードコンパイルやシステム設定など、CLI上の自律作業を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "TerminalWorld",
+    "url": "https://github.com/EuniAI/TerminalWorld",
+    "description": {
+      "en": "Terminal tasks derived from real terminal operation logs.",
+      "zh-CN": "使用真实终端操作日志派生的任务评估 CLI 能力。",
+      "ja": "実際のターミナル操作ログに基づくCLIタスクを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "SWE-bench",
+    "url": "https://www.swebench.com/",
+    "description": {
+      "en": "Issue fixing in real GitHub repositories.",
+      "zh-CN": "评估真实 GitHub 仓库中的 issue 修复能力。",
+      "ja": "実GitHubリポジトリのIssue修正能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "SWE-bench Verified",
+    "url": "https://www.swebench.com/verified.html",
+    "description": {
+      "en": "A human-validated SWE-bench subset for higher-quality software engineering evaluation.",
+      "zh-CN": "SWE-bench 的人工验证子集，用于更高质量的软件工程评估。",
+      "ja": "SWE-benchの人手検証済みサブセット。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "SWE-bench Pro",
+    "url": "https://labs.scale.com/leaderboard/swe_bench_pro_public",
+    "description": {
+      "en": "Longer-horizon and more realistic software engineering tasks.",
+      "zh-CN": "评估更长程、更贴近真实的软件工程任务。",
+      "ja": "より長期で現実的なソフトウェアエンジニアリングタスクを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "ProjDevBench",
+    "url": "https://github.com/zsworld6/projdevbench",
+    "description": {
+      "en": "Building complete software repositories from high-level specifications.",
+      "zh-CN": "评估根据高层规格构建完整软件仓库的能力。",
+      "ja": "高レベル仕様からリポジトリ全体を構築する能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "OmniCode",
+    "url": "https://github.com/seal-research/OmniCode",
+    "description": {
+      "en": "Broad software engineering tasks across multiple programming languages.",
+      "zh-CN": "覆盖多种编程语言中的广泛软件工程任务。",
+      "ja": "複数言語にわたる広範なソフトウェア工学タスクを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "WebCompass",
+    "url": "https://github.com/NJU-LINK/WebCompass",
+    "description": {
+      "en": "Generating, editing, and repairing websites or web apps from multimodal inputs.",
+      "zh-CN": "评估根据多模态输入生成、编辑和修复网站或 Web 应用的能力。",
+      "ja": "マルチモーダル入力からWebサイト/Webアプリを生成・編集・修復する能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "VISTA",
+    "url": "https://arxiv.org/abs/2605.26144",
+    "description": {
+      "en": "Visual-spec-to-web-app coding from screenshots and design structures.",
+      "zh-CN": "评估从截图和设计结构生成 Web 应用的能力。",
+      "ja": "スクリーンショットや設計構造からWebアプリを実装する能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "SecureVibeBench",
+    "url": "https://arxiv.org/abs/2509.22097",
+    "description": {
+      "en": "Secure coding by AI agents, especially for vulnerability-related tasks.",
+      "zh-CN": "评估编码智能体是否能生成安全代码，尤其是与漏洞相关的任务。",
+      "ja": "脆弱性関連タスクを中心に、安全なコード生成能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "SlopCodeBench",
+    "url": "https://github.com/SprocketLab/slop-code-bench",
+    "description": {
+      "en": "Code erosion, bloat, and degradation under iterative specification changes.",
+      "zh-CN": "评估反复规格变更下代码退化、膨胀和质量下降问题。",
+      "ja": "反復的な仕様変更でコードが肥大化・劣化するかを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "CLI and software engineering",
+      "zh-CN": "CLI 与软件工程",
+      "ja": "CLIとソフトウェア工学"
+    },
+    "benchmark": "CentaurEval",
+    "url": "https://arxiv.org/abs/2512.04111",
+    "description": {
+      "en": "Human-in-the-loop collaboration in agentic coding.",
+      "zh-CN": "评估人在回路中的协作对智能体编码任务的价值。",
+      "ja": "人間参加型の協働コーディング能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "Data Agent Benchmark / DAB",
+    "url": "https://github.com/ucbepic/DataAgentBench",
+    "description": {
+      "en": "Enterprise data-agent workflows including databases, transformations, and analysis.",
+      "zh-CN": "评估企业数据智能体工作流，包括数据库、数据转换和分析。",
+      "ja": "DB、変換、分析を含む企業データエージェント業務を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "AIDABench",
+    "url": "https://github.com/MichaelYang-lyx/AIDABench",
+    "description": {
+      "en": "Analytical agents over heterogeneous data, documents, and business records.",
+      "zh-CN": "评估面向异构数据、文档和业务记录的分析型智能体。",
+      "ja": "異種データ、文書、業務記録を扱う分析エージェントを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "DSBench",
+    "url": "https://github.com/liqiangjing/dsbench",
+    "description": {
+      "en": "Data science agents on realistic analysis and modeling tasks.",
+      "zh-CN": "评估数据科学智能体在真实分析与建模任务中的能力。",
+      "ja": "現実的な分析・モデリングタスクでデータサイエンスエージェントを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "DataSciBench",
+    "url": "https://datascibench.github.io/",
+    "description": {
+      "en": "Data science task execution by LLM agents.",
+      "zh-CN": "评估 LLM 智能体的数据科学任务执行能力。",
+      "ja": "LLMエージェントによるデータサイエンスタスク遂行能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "AIRS-Bench",
+    "url": "https://github.com/facebookresearch/airs-bench",
+    "description": {
+      "en": "AI research-science agents across the research lifecycle.",
+      "zh-CN": "评估 AI 研究科学智能体在研究生命周期中的能力。",
+      "ja": "AI研究科学エージェントの研究ライフサイクル全体を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "DeployBench",
+    "url": "https://arxiv.org/abs/2606.05238",
+    "description": {
+      "en": "Deploying and reproducing research artifacts in new environments.",
+      "zh-CN": "评估在新环境中部署和复现实验制品的能力。",
+      "ja": "新環境で研究成果物を展開・再現できるかを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "PaperBench",
+    "url": "https://github.com/openai/frontier-evals/tree/main/project/paperbench",
+    "description": {
+      "en": "Replicating AI research papers, including implementation and experiments.",
+      "zh-CN": "评估智能体能否复现 AI 研究论文，包括实现与实验。",
+      "ja": "実装や実験を含め、AI研究論文を再現できるかを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "EduAgentBench",
+    "url": "https://arxiv.org/abs/2605.14322",
+    "description": {
+      "en": "Educational agents in teaching, diagnosis, and learning workflows.",
+      "zh-CN": "评估教育智能体在教学、学习诊断和教育工作流中的能力。",
+      "ja": "教授、学習診断、教育ワークフローにおける教育エージェントを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "AutoMat",
+    "url": "https://arxiv.org/abs/2605.00803",
+    "description": {
+      "en": "Reproducing claims from computational materials science papers.",
+      "zh-CN": "评估复现计算材料科学论文中主张的能力。",
+      "ja": "計算材料科学論文の主張を再現できるかを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Data, office work, and research",
+      "zh-CN": "数据、办公与研究",
+      "ja": "データ・オフィス業務・研究"
+    },
+    "benchmark": "SpreadsheetBench",
+    "url": "https://spreadsheetbench.github.io/",
+    "description": {
+      "en": "Complex spreadsheet manipulation and business spreadsheet workflows.",
+      "zh-CN": "评估复杂电子表格操作和商务表格工作流。",
+      "ja": "複雑なスプレッドシート操作と業務表計算ワークフローを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Web and PC operation",
+      "zh-CN": "Web 与 PC 操作",
+      "ja": "Web・PC操作"
+    },
+    "benchmark": "OSWorld",
+    "url": "https://os-world.github.io/",
+    "description": {
+      "en": "GUI and OS-level operation in real computer environments.",
+      "zh-CN": "评估真实计算机环境中的 GUI 与操作系统级任务执行能力。",
+      "ja": "実コンピュータ環境でのGUI・OSレベル操作を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Web and PC operation",
+      "zh-CN": "Web 与 PC 操作",
+      "ja": "Web・PC操作"
+    },
+    "benchmark": "WebArena",
+    "url": "https://webarena.dev/",
+    "description": {
+      "en": "Autonomous web agents in realistic web environments.",
+      "zh-CN": "评估真实 Web 环境中的自主 Web 智能体。",
+      "ja": "現実的なWeb環境で自律Webエージェントを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Web and PC operation",
+      "zh-CN": "Web 与 PC 操作",
+      "ja": "Web・PC操作"
+    },
+    "benchmark": "VisualWebArena",
+    "url": "https://github.com/web-arena-x/visualwebarena",
+    "description": {
+      "en": "Multimodal web agents using visual page information.",
+      "zh-CN": "评估利用网页视觉信息的多模态 Web 智能体。",
+      "ja": "視覚情報を使うマルチモーダルWebエージェントを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Web and PC operation",
+      "zh-CN": "Web 与 PC 操作",
+      "ja": "Web・PC操作"
+    },
+    "benchmark": "BrowserArena",
+    "url": "https://github.com/sagnikanupam/browserarena",
+    "description": {
+      "en": "Live open-web browser tasks and preference-style judgments.",
+      "zh-CN": "评估实时开放 Web 浏览器任务和偏好式判断。",
+      "ja": "ライブWeb上のブラウザタスクと選好型評価を扱う。"
+    }
+  },
+  {
+    "category": {
+      "en": "Web and PC operation",
+      "zh-CN": "Web 与 PC 操作",
+      "ja": "Web・PC操作"
+    },
+    "benchmark": "BrowseComp",
+    "url": "https://openai.com/index/browsecomp/",
+    "description": {
+      "en": "Difficult web browsing and hard-to-find information retrieval.",
+      "zh-CN": "评估困难网页浏览和难以查找信息的检索能力。",
+      "ja": "Web上で見つけにくい情報を調査する能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Multimodal, long-context, and video",
+      "zh-CN": "多模态、长上下文与视频",
+      "ja": "マルチモーダル・長文脈・動画"
+    },
+    "benchmark": "MMMU-Pro",
+    "url": "https://arxiv.org/abs/2409.02813",
+    "description": {
+      "en": "University-level multimodal reasoning with image and text inputs.",
+      "zh-CN": "评估包含图像与文本输入的大学级多模态推理能力。",
+      "ja": "画像とテキストを含む大学レベルのマルチモーダル推論を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Multimodal, long-context, and video",
+      "zh-CN": "多模态、长上下文与视频",
+      "ja": "マルチモーダル・長文脈・動画"
+    },
+    "benchmark": "Video-MME v2",
+    "url": "https://github.com/MME-Benchmarks/Video-MME-v2",
+    "description": {
+      "en": "Comprehensive video understanding across short and long videos.",
+      "zh-CN": "评估短视频与长视频中的综合视频理解能力。",
+      "ja": "短い動画から長い動画まで包括的な動画理解を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Multimodal, long-context, and video",
+      "zh-CN": "多模态、长上下文与视频",
+      "ja": "マルチモーダル・長文脈・動画"
+    },
+    "benchmark": "LongBench v2",
+    "url": "https://longbench2.github.io/",
+    "description": {
+      "en": "Deep understanding and reasoning over long contexts.",
+      "zh-CN": "评估长上下文中的深层理解与推理能力。",
+      "ja": "長文脈における深い理解と推論能力を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Multimodal, long-context, and video",
+      "zh-CN": "多模态、长上下文与视频",
+      "ja": "マルチモーダル・長文脈・動画"
+    },
+    "benchmark": "MRCR",
+    "url": "https://huggingface.co/datasets/openai/mrcr",
+    "description": {
+      "en": "Multi-round coreference retrieval and long-context information tracking.",
+      "zh-CN": "评估多轮共指检索和长上下文信息追踪能力。",
+      "ja": "複数ラウンドの共参照検索と長文脈情報追跡を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Multimodal, long-context, and video",
+      "zh-CN": "多模态、长上下文与视频",
+      "ja": "マルチモーダル・長文脈・動画"
+    },
+    "benchmark": "RULER",
+    "url": "https://github.com/NVIDIA/RULER",
+    "description": {
+      "en": "Effective context length with retrieval and reasoning tasks.",
+      "zh-CN": "通过检索和推理任务评估有效上下文长度。",
+      "ja": "検索・推論タスクでモデルの実効的なコンテキスト長を測る。"
+    }
+  },
+  {
+    "category": {
+      "en": "Multimodal, long-context, and video",
+      "zh-CN": "多模态、长上下文与视频",
+      "ja": "マルチモーダル・長文脈・動画"
+    },
+    "benchmark": "NeedleBench",
+    "url": "https://github.com/open-compass/opencompass/blob/main/opencompass/configs/datasets/needlebench_v2/readme.md",
+    "description": {
+      "en": "Retrieval of relevant information hidden in very long contexts.",
+      "zh-CN": "评估在超长上下文中检索隐藏关键信息的能力。",
+      "ja": "非常に長い文脈に埋め込まれた重要情報を検索できるかを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Multimodal, long-context, and video",
+      "zh-CN": "多模态、长上下文与视频",
+      "ja": "マルチモーダル・長文脈・動画"
+    },
+    "benchmark": "VLM-RobustBench",
+    "url": "https://arxiv.org/abs/2603.06148",
+    "description": {
+      "en": "Robustness of vision-language models under image corruptions and transformations.",
+      "zh-CN": "评估视觉语言模型在图像扰动和变换下的鲁棒性。",
+      "ja": "画像のノイズ・変換・劣化に対する視覚言語モデルの頑健性を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Safety, cybersecurity, and healthcare",
+      "zh-CN": "安全、网络安全与医疗",
+      "ja": "安全性・サイバーセキュリティ・医療"
+    },
+    "benchmark": "MultiBreak",
+    "url": "https://arxiv.org/abs/2605.01687",
+    "description": {
+      "en": "LLM safety against diverse multi-turn jailbreak attacks.",
+      "zh-CN": "评估 LLM 面对多样化多轮越狱攻击时的安全性。",
+      "ja": "多様なマルチターン脱獄攻撃に対するLLM安全性を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Safety, cybersecurity, and healthcare",
+      "zh-CN": "安全、网络安全与医疗",
+      "ja": "安全性・サイバーセキュリティ・医療"
+    },
+    "benchmark": "XL-SafetyBench",
+    "url": "https://github.com/AIM-Intelligence/XL-SafetyBench",
+    "description": {
+      "en": "Multilingual and cross-cultural safety and sensitivity.",
+      "zh-CN": "评估多语言、跨文化的安全性与文化敏感性。",
+      "ja": "多言語・多文化における安全性と文化的感度を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Safety, cybersecurity, and healthcare",
+      "zh-CN": "安全、网络安全与医疗",
+      "ja": "安全性・サイバーセキュリティ・医療"
+    },
+    "benchmark": "TukaBench",
+    "url": "https://arxiv.org/abs/2606.01322",
+    "description": {
+      "en": "Culturally grounded jailbreak robustness for African languages.",
+      "zh-CN": "评估非洲语言中具备文化语境的越狱鲁棒性。",
+      "ja": "アフリカ言語における文化的文脈を含む脱獄耐性を評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Safety, cybersecurity, and healthcare",
+      "zh-CN": "安全、网络安全与医疗",
+      "ja": "安全性・サイバーセキュリティ・医療"
+    },
+    "benchmark": "CyberGym-E2E",
+    "url": "https://www.cybergym.io/cybergym-e2e/",
+    "description": {
+      "en": "End-to-end cybersecurity tasks such as vulnerability discovery, PoC creation, and patching.",
+      "zh-CN": "评估漏洞发现、PoC 生成和补丁修复等端到端网络安全任务。",
+      "ja": "脆弱性発見、PoC生成、パッチ作成などのエンドツーエンドのサイバータスクを評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Safety, cybersecurity, and healthcare",
+      "zh-CN": "安全、网络安全与医疗",
+      "ja": "安全性・サイバーセキュリティ・医療"
+    },
+    "benchmark": "CAIBench",
+    "url": "https://arxiv.org/abs/2510.24317",
+    "description": {
+      "en": "A meta-benchmark for cybersecurity AI agents across attack, defense, knowledge, and privacy tasks.",
+      "zh-CN": "覆盖攻击、防御、知识和隐私任务的网络安全 AI 智能体元基准。",
+      "ja": "攻撃・防御・知識・プライバシーを含むサイバーAIエージェント評価。"
+    }
+  },
+  {
+    "category": {
+      "en": "Safety, cybersecurity, and healthcare",
+      "zh-CN": "安全、网络安全与医疗",
+      "ja": "安全性・サイバーセキュリティ・医療"
+    },
+    "benchmark": "HealthBench",
+    "url": "https://openai.com/index/healthbench/",
+    "description": {
+      "en": "Clinical reasoning, medical safety, uncertainty handling, and communication.",
+      "zh-CN": "评估临床推理、医疗安全、不确定性处理和沟通能力。",
+      "ja": "臨床推論、医療安全、不確実性の扱い、コミュニケーションを評価。"
+    }
+  }
+]
