@@ -59,7 +59,6 @@ This repository currently covers **58 benchmark entries** across the following e
 .
 ├── README.md
 ├── CONTRIBUTING.md
-├── .gitignore
 ├── assets/
 │   └── ai-benchmark-overview-2026.png
 ├── data/
