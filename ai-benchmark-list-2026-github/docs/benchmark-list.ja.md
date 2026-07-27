@@ -60,6 +60,7 @@ LLM、エージェント、ツール利用、コーディング、マルチモ�
 | Web・PC操作 | [VisualWebArena](https://github.com/web-arena-x/visualwebarena) | 視覚情報を使うマルチモーダルWebエージェントを評価。 |
 | Web・PC操作 | [BrowserArena](https://github.com/sagnikanupam/browserarena) | ライブWeb上のブラウザタスクと選好型評価を扱う。 |
 | Web・PC操作 | [BrowseComp](https://openai.com/index/browsecomp/) | Web上で見つけにくい情報を調査する能力を評価。 |
+| Web・PC操作 | [ClawBench](https://claw-bench.com/) | 144の実サイトをまたぐ長期ブラウザエージェント課題を、リクエスト単位の結果検証と実行トレースで評価。 |
 | マルチモーダル・長文脈・動画 | [MMMU-Pro](https://arxiv.org/abs/2409.02813) | 画像とテキストを含む大学レベルのマルチモーダル推論を評価。 |
 | マルチモーダル・長文脈・動画 | [Video-MME v2](https://github.com/MME-Benchmarks/Video-MME-v2) | 短い動画から長い動画まで包括的な動画理解を評価。 |
 | マルチモーダル・長文脈・動画 | [LongBench v2](https://longbench2.github.io/) | 長文脈における深い理解と推論能力を評価。 |

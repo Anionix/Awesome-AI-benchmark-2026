@@ -60,6 +60,7 @@
 | Web 与 PC 操作 | [VisualWebArena](https://github.com/web-arena-x/visualwebarena) | 评估利用网页视觉信息的多模态 Web 智能体。 |
 | Web 与 PC 操作 | [BrowserArena](https://github.com/sagnikanupam/browserarena) | 评估实时开放 Web 浏览器任务和偏好式判断。 |
 | Web 与 PC 操作 | [BrowseComp](https://openai.com/index/browsecomp/) | 评估困难网页浏览和难以查找信息的检索能力。 |
+| Web 与 PC 操作 | [ClawBench](https://claw-bench.com/) | 覆盖144个真实网站的长程浏览器智能体任务，并提供请求级结果检查和执行轨迹。 |
 | 多模态、长上下文与视频 | [MMMU-Pro](https://arxiv.org/abs/2409.02813) | 评估包含图像与文本输入的大学级多模态推理能力。 |
 | 多模态、长上下文与视频 | [Video-MME v2](https://github.com/MME-Benchmarks/Video-MME-v2) | 评估短视频与长视频中的综合视频理解能力。 |
 | 多模态、长上下文与视频 | [LongBench v2](https://longbench2.github.io/) | 评估长上下文中的深层理解与推理能力。 |
