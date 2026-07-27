@@ -60,6 +60,7 @@ A curated benchmark list for evaluating LLMs, agents, tool use, coding, multimod
 | Web and PC operation | [VisualWebArena](https://github.com/web-arena-x/visualwebarena) | Multimodal web agents using visual page information. |
 | Web and PC operation | [BrowserArena](https://github.com/sagnikanupam/browserarena) | Live open-web browser tasks and preference-style judgments. |
 | Web and PC operation | [BrowseComp](https://openai.com/index/browsecomp/) | Difficult web browsing and hard-to-find information retrieval. |
+| Web and PC operation | [ClawBench](https://claw-bench.com/) | Long-horizon browser-agent tasks across 144 live websites with request-level outcome checks and execution traces. |
 | Multimodal, long-context, and video | [MMMU-Pro](https://arxiv.org/abs/2409.02813) | University-level multimodal reasoning with image and text inputs. |
 | Multimodal, long-context, and video | [Video-MME v2](https://github.com/MME-Benchmarks/Video-MME-v2) | Comprehensive video understanding across short and long videos. |
 | Multimodal, long-context, and video | [LongBench v2](https://longbench2.github.io/) | Deep understanding and reasoning over long contexts. |
