@@ -5,6 +5,8 @@ LLM、エージェント、ツール利用、コーディング、マルチモ�
 > **Note**  
 > 2026年6月時点のスナップショット。特にエージェントワークフロー、コーディング、ブラウザ操作、ツール利用では、ベンチマークの重要性が急速に変化します。
 
+> EC2-Benchは2026年11月11日に追加。他の項目は2026年6月時点のスナップショットを保持。
+
 ## Contents
 
 - [Benchmark list](#benchmark-list)
@@ -25,6 +27,7 @@ LLM、エージェント、ツール利用、コーディング、マルチモ�
 | 実用AIエージェント | [Agents' Last Exam / ALE](https://arxiv.org/abs/2606.05405) | 多領域にわたる長期・高価値の実世界タスク遂行能力を評価。 |
 | 実用AIエージェント | [GDPval](https://openai.com/index/gdpval/) | 職種・産業をまたぐ実世界の知識労働成果物を評価。 |
 | 実用AIエージェント | [APEX-Agents](https://epoch.ai/benchmarks/apex-agents) | 金融、コンサル、法律、医療などの専門職ワークフローを評価。 |
+| 実用AIエージェント | [EC2-Bench](https://passionate11.github.io/ec2-bench-project-page/) | 128件のデジタルワークスペース課題で長期のエッジ・クラウド協調エージェントを評価し、タスク性能、クラウド費用、プライバシー露出を併せて測定。 |
 | ツール利用とMCP | [Toolathlon / Tool Decathlon](https://github.com/hkust-nlp/Toolathlon) | 多数のアプリ・ツールを使う長期タスク遂行能力を評価。 |
 | ツール利用とMCP | [MCP-Atlas](https://labs.scale.com/leaderboard/mcp_atlas) | MCPツールの発見、引数指定、複数ツール連携を評価。 |
 | ツール利用とMCP | [LiveMCPBench](https://icip-cas.github.io/LiveMCPBench/) | 大規模ライブMCP環境でのツール選択・利用能力を評価。 |

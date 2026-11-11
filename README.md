@@ -11,6 +11,8 @@ AI evaluation is shifting from static knowledge and reasoning tests toward bench
 > [!NOTE]
 > Benchmark relevance changes quickly, especially in agentic workflows, coding, web operation, and tool use. This repository should be treated as a snapshot, not a fixed ranking.
 
+> EC2-Bench was added on 11 November 2026; the other entries retain the June 2026 snapshot.
+
 ## Quick links
 
 | Language | File |
@@ -25,7 +27,7 @@ AI evaluation is shifting from static knowledge and reasoning tests toward bench
 
 ## Scope
 
-This repository currently covers **58 benchmark entries** across the following evaluation areas:
+This repository currently covers **59 benchmark entries** across the following evaluation areas:
 
 - Traditional LLM capability
 - AGI-oriented reasoning
