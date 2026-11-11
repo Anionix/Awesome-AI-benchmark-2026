@@ -141,6 +141,20 @@
   },
   {
     "category": {
+      "en": "Practical AI agents",
+      "zh-CN": "实用 AI 智能体",
+      "ja": "実用AIエージェント"
+    },
+    "benchmark": "EC2-Bench",
+    "url": "https://passionate11.github.io/ec2-bench-project-page/",
+    "description": {
+      "en": "128 digital-workspace tasks for long-horizon edge-cloud agent collaboration, jointly measuring task performance, cloud cost, and privacy exposure.",
+      "zh-CN": "通过 128 个数字工作空间任务评估长程端云智能体协作，联合衡量任务表现、云端成本与隐私暴露。",
+      "ja": "128件のデジタルワークスペース課題で長期のエッジ・クラウド協調エージェントを評価し、タスク性能、クラウド費用、プライバシー露出を併せて測定。"
+    }
+  },
+  {
+    "category": {
       "en": "Tool use and MCP",
       "zh-CN": "工具使用与 MCP",
       "ja": "ツール利用とMCP"

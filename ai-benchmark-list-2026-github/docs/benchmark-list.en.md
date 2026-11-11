@@ -5,6 +5,8 @@ A curated benchmark list for evaluating LLMs, agents, tool use, coding, multimod
 > **Note**  
 > Snapshot as of June 2026. Benchmark relevance evolves rapidly, especially in agentic workflows, coding, browser operation, and tool use.
 
+> EC2-Bench was added on 11 November 2026; the other entries retain the June 2026 snapshot.
+
 ## Contents
 
 - [Benchmark list](#benchmark-list)
@@ -25,6 +27,7 @@ A curated benchmark list for evaluating LLMs, agents, tool use, coding, multimod
 | Practical AI agents | [Agents' Last Exam / ALE](https://arxiv.org/abs/2606.05405) | Long-horizon, economically valuable real-world tasks across many fields. |
 | Practical AI agents | [GDPval](https://openai.com/index/gdpval/) | Real-world work deliverables across occupations and industries. |
 | Practical AI agents | [APEX-Agents](https://epoch.ai/benchmarks/apex-agents) | Professional workflows in finance, consulting, law, medicine, and related domains. |
+| Practical AI agents | [EC2-Bench](https://passionate11.github.io/ec2-bench-project-page/) | 128 digital-workspace tasks for long-horizon edge-cloud agent collaboration, jointly measuring task performance, cloud cost, and privacy exposure. |
 | Tool use and MCP | [Toolathlon / Tool Decathlon](https://github.com/hkust-nlp/Toolathlon) | Long-horizon task execution with many applications and tools. |
 | Tool use and MCP | [MCP-Atlas](https://labs.scale.com/leaderboard/mcp_atlas) | MCP tool discovery, parameter specification, and multi-tool coordination. |
 | Tool use and MCP | [LiveMCPBench](https://icip-cas.github.io/LiveMCPBench/) | Tool selection and use across large live MCP server environments. |

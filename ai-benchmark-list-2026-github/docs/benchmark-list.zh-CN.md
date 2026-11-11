@@ -5,6 +5,8 @@
 > **Note**  
 > 截至 2026 年 6 月的快照。基准的重要性变化很快，尤其是在智能体工作流、编码、浏览器操作和工具使用方面。
 
+> EC2-Bench 于 2026 年 11 月 11 日补充；其他条目保留 2026 年 6 月的快照。
+
 ## Contents
 
 - [Benchmark list](#benchmark-list)
@@ -25,6 +27,7 @@
 | 实用 AI 智能体 | [Agents' Last Exam / ALE](https://arxiv.org/abs/2606.05405) | 评估跨多个领域、具有经济价值的长程真实世界任务执行能力。 |
 | 实用 AI 智能体 | [GDPval](https://openai.com/index/gdpval/) | 评估跨职业与行业的真实知识工作交付物。 |
 | 实用 AI 智能体 | [APEX-Agents](https://epoch.ai/benchmarks/apex-agents) | 评估金融、咨询、法律、医疗等专业领域的工作流执行能力。 |
+| 实用 AI 智能体 | [EC2-Bench](https://passionate11.github.io/ec2-bench-project-page/) | 通过 128 个数字工作空间任务评估长程端云智能体协作，联合衡量任务表现、云端成本与隐私暴露。 |
 | 工具使用与 MCP | [Toolathlon / Tool Decathlon](https://github.com/hkust-nlp/Toolathlon) | 评估在多应用、多工具环境中的长程任务执行能力。 |
 | 工具使用与 MCP | [MCP-Atlas](https://labs.scale.com/leaderboard/mcp_atlas) | 评估 MCP 工具发现、参数指定和多工具协调能力。 |
 | 工具使用与 MCP | [LiveMCPBench](https://icip-cas.github.io/LiveMCPBench/) | 评估在大规模实时 MCP 服务器环境中的工具选择与使用能力。 |
